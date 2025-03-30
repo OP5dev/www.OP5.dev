@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    // Base options.
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "lib": [
+      "dom",
+      "ESNext"
+    ],
+    "module": "ESNext",
+    "target": "ESNext",
+    "outDir": "dist",
+    // Bundler mode.
+    "moduleDetection": "force",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+    // Best practices.
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "strict": true,
+  },
+  "include": [
+    "src/**/*",
+    "*.ts"
+  ],
+  "exclude": [
+    "src/_components/*"
+  ],
+}
