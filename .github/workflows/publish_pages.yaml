@@ -2,9 +2,9 @@
 name: Publish Pages
 
 on:
-  pull_request:
+  push:
     branches: [main]
-    paths: [src/**, .github/workflows/publish_pages.yaml]
+    paths: [src/**, package.json, .github/workflows/publish_pages.yaml]
 
 jobs:
   Pages:
