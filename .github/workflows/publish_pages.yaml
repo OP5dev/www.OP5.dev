@@ -26,7 +26,7 @@ jobs:
 
     env:
       NODE_ENV: production
-      BASE_URL: ${{ github.event.repository.name }}
+      BASE_URL: /${{ github.event.repository.name }}/
 
     steps:
       - name: Checkout repository
