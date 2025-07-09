@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "marko": "5.37.40",
-    "@marko/run": "0.7.7",
+    "@marko/run": "0.8.0",
     "@marko/run-adapter-static": "2.0.2"
   },
   "peerDependencies": {
